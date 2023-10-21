@@ -258,6 +258,15 @@ form input, form textarea {
   border-radius: 5px;
 }
 
+form input[name="assunto"],
+form textarea[name="mensagem"] {
+  max-width: 1600px;
+}
+
+form textarea[name="mensagem"] {
+  height: 180px;
+}
+
 .botao3 {
   border: none;
   border-radius: 5px;
