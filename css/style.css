@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
 :root {
   --primary: #00b98e;
   --secondary: #effdf5;
@@ -5,4 +7,102 @@
   --dark: #0e2e50;
 }
 
-/*Fonte: Heebo*/
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: var(--light);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 35px;
+}
+
+.cabecalho-logo strong {
+  list-style: none;
+  text-decoration: none;
+  color: var(--primary);
+  font-size: 50px;
+  margin-left: 20px;
+}
+
+.cabecalho-menu ul {
+  display: flex;
+  gap: 55px;
+  list-style: none;
+}
+
+.cabecalho-menu ul li a {
+  color: var(--dark);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.color-primary2 {
+  color: var(--primary);
+  font-size: 20px;
+}
+
+
+.cabecalho {
+  padding: 50px 80px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--light);
+}
+
+main {
+  height: 580px;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.principal-conteudo {
+  padding: 0 90px;
+  width: 55%;
+}
+
+.principal-conteudo h1 {
+  font-size: 65px;
+  color: var(--dark);
+  margin-bottom: 40px;
+  padding: 0 120px 0 0;
+}
+
+.principal-conteudo p {
+  font-size: 20px;
+  color: var(--dark);
+  line-height: 1.5;
+}
+
+.color-primary {
+  color: var(--primary);
+  font-size: 65px;
+}
+
+
+#imgCasaPrincipal {
+  position: absolute;
+  left: 55%;
+  top: 12%;
+}
+
+.botao {
+  border: none;
+  border-radius: 5px;
+  height: 70px;
+  width: 225px;
+  background-color: var(--primary);
+  color: var(--light);
+  font-size: 20px;
+  margin-top: 40px;
+}
