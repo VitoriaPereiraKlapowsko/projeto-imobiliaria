@@ -27,6 +27,9 @@
     margin: 0 10px;
   }
 
+  .property-types {
+    padding: 80px;
+  }
 
   .principal-conteudo {
     text-align: center;
@@ -103,6 +106,10 @@
     width: 100%;
   }
 
+  .footer-col2 {
+    text-align: left;
+  }
+
   .footer-social {
     display: flex;
     justify-content: center;
@@ -112,4 +119,5 @@
   .footer-voltar {
     margin-top: 20px;
   }
+
 }

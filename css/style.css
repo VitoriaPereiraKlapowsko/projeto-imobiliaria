@@ -32,9 +32,12 @@ header {
 }
 
 .cabecalho-menu ul {
+  padding: 0;
   display: flex;
+  justify-content: center;
   gap: 55px;
   list-style: none;
+  margin-top: 10px;
 }
 
 .cabecalho-menu ul li a {
@@ -129,7 +132,7 @@ main {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  font-size: 1.25rem; 
+  font-size: 1.25rem;
 }
 
 .container-cards p {
@@ -160,7 +163,7 @@ main {
 
 .cabecalho-secao2 p {
   text-align: center;
-  font-size: 1.25rem; 
+  font-size: 1.25rem;
   margin-top: 30px;
 }
 
@@ -168,7 +171,7 @@ main {
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
-  font-size: 1.4375rem; 
+  font-size: 1.4375rem;
 }
 
 .container-cards2 h4 {
@@ -218,7 +221,7 @@ main {
   text-align: center;
 }
 
-section h2{
+section h2 {
   display: flex;
   flex-direction: column;
   font-size: 2.8125rem;
@@ -228,7 +231,7 @@ section h2{
   align-items: center;
 }
 
-section p{
+section p {
   text-align: center;
   font-size: 1.25rem;
   margin-top: 20px;
@@ -247,9 +250,10 @@ form {
   gap: 10px;
 }
 
-form input, form textarea {
+form input,
+form textarea {
   width: 100%;
-  max-width: 490px; 
+  max-width: 490px;
   padding: 20px;
   border: 1px solid #eedede;
   border-radius: 5px;
@@ -280,12 +284,14 @@ form textarea[name="mensagem"] {
 .footer {
   background-color: var(--dark);
   margin-top: 50px;
-  display: flex; 
-  flex-wrap: wrap; 
-  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
 }
 
-.footer-col1, .footer-col2, .footer-col3 {
+.footer-col1,
+.footer-col2,
+.footer-col3 {
   width: 30%;
   flex-direction: column;
   gap: 20px;
@@ -329,7 +335,6 @@ form textarea[name="mensagem"] {
 
 #imgFlechaFooter {
   position: relative;
-  top: 230px; 
+  top: 230px;
   left: 880%;
 }
-
