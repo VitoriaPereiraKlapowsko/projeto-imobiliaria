@@ -1,123 +1,85 @@
 @media (max-width: 576px) {
-  * {
-    font-size: 14px;
-  }
-
   .cabecalho {
+    padding: 15px;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
-  }
-
-  .cabecalho-logo {
     text-align: center;
   }
 
-  .cabecalho-menu {
-    text-align: center;
-    margin-top: 20px;
+  #ImagemPrincipalLogo {
+    right: 1%;
+    margin-top: 5px;
   }
 
   .cabecalho-menu ul {
-    padding: 0;
+    gap: 50px;
+    margin-top: 13px;
   }
 
-  .cabecalho-menu li {
-    display: inline;
-    margin: 0 10px;
-  }
-
-  .property-types {
-    padding: 80px;
+  .principal {
+    height: auto; 
+    flex-direction: column;
+    align-items: center;
   }
 
   .principal-conteudo {
-    text-align: center;
+    width: 90%; 
+    padding: 30px 30px 0 30px;
   }
 
   #imgCasaPrincipal {
-    width: 100%;
+    top: 68%;
+    left: 11%;
+    width: 78%;
     height: auto;
   }
 
   .botao {
-    width: 100%;
-  }
-
-  .container-title {
-    text-align: center;
+    width: 50%;
   }
 
   .container-cards {
+    max-width: 100%; 
+    flex-direction: column;
+    margin-top: 60px; 
+  }
+
+  .container-cards .card {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+  }  
+
+  .container-title {
+    margin-top: 70%; 
+  }
+  
+  .container-cards2 {
     flex-direction: column;
   }
 
-  .card {
-    margin-bottom: 20px;
-    text-align: center;
-  }
-
-  .container-title2,
-  .container-cards2 {
-    text-align: center;
-  }
-
-  .card2 {
-    text-align: center;
-  }
-
-  .container-cards2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .card2 {
-    margin: 10px;
+  .container-cards2 .card2 {
+    margin: 0 auto;
+    margin-bottom: 20px; 
   }
 
   .botao2 {
     width: 50%;
   }
 
-  #contato {
-    text-align: center;
-  }
-
-  form input,
-  form textarea {
-    width: 100%;
-    max-width: 100%;
+  .nomeemail div,
+  .telefoneendereco div {
+    flex-direction: column;
   }
 
   .botao3 {
-    width: 100%;
+    width: 50%;
+    margin: 0 auto; 
+    display: block;
   }
-
-  .footer {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .footer-col1,
-  .footer-col2,
-  .footer-col3 {
-    width: 100%;
-  }
-
-  .footer-col2 {
-    text-align: left;
-  }
-
-  .footer-social {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-
-  .footer-voltar {
-    margin-top: 20px;
-  }
-
+  
 }

@@ -14,6 +14,7 @@
   box-sizing: border-box;
 }
 
+/* Header */
 header {
   background-color: var(--light);
   height: 80px;
@@ -23,8 +24,6 @@ header {
 }
 
 .cabecalho-logo h4 {
-  list-style: none;
-  text-decoration: none;
   color: var(--primary);
   font-size: 2.5rem;
   margin-left: 20px;
@@ -38,7 +37,6 @@ header {
 
 .cabecalho-menu ul {
   display: flex;
-  justify-content: center;
   gap: 55px;
   list-style: none;
   margin-top: 10px;
@@ -62,6 +60,7 @@ header {
   background-color: var(--light);
 }
 
+/* Main */
 main {
   height: 600px;
   background-position: center;
@@ -113,6 +112,7 @@ main {
   margin-top: 40px;
 }
 
+/* Container Title */
 .container-title {
   display: flex;
   flex-direction: column;
@@ -132,24 +132,20 @@ main {
   margin-top: 30px;
 }
 
+/* Container Cards */
 .container-cards {
   margin-top: 70px;
   display: flex;
   justify-content: space-between;
   text-align: center;
   font-size: 1.25rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  gap: 20px;
 }
 
 .container-cards p {
   color: var(--primary);
-}
-
-.container-cards {
-  margin: 0 auto;
-  max-width: 70%;
-  margin-top: 4%;
-  display: flex;
-  justify-content: space-between;
 }
 
 .container-cards .card {
@@ -160,6 +156,7 @@ main {
   height: 260px;
 }
 
+/* Seção 2 */
 .container-title2 {
   display: flex;
   flex-direction: column;
@@ -173,6 +170,7 @@ main {
 .cabecalho-secao2 p {
   text-align: center;
   font-size: 1.25rem;
+  margin-bottom: 40px;
   margin-top: 30px;
 }
 
@@ -182,11 +180,6 @@ main {
   font-size: 1.4375rem;
   margin: 0 auto;
   max-width: 90%;
-}
-
-.property-types {
-  text-align: center;
-  margin: 30px;
 }
 
 .container-cards2 .card2 img {
@@ -251,11 +244,20 @@ section p {
   font-size: 1.25rem;
 }
 
+/* Contato */
 #contato {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+#contato h2 {
+  margin-bottom: 20px;
+}
+
+#contato p {
+  margin-bottom: 20px;
 }
 
 form {
@@ -299,6 +301,7 @@ form textarea[name="mensagem"] {
   font-size: 1.25rem;
 }
 
+/* Footer */
 .footer {
   background-color: var(--dark);
   margin-top: 12%;
