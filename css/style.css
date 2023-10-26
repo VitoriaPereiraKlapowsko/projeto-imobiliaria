@@ -20,15 +20,20 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 35px;
 }
 
-.cabecalho-logo strong {
+.cabecalho-logo h4 {
   list-style: none;
   text-decoration: none;
   color: var(--primary);
   font-size: 2.5rem;
   margin-left: 20px;
+}
+
+#ImagemPrincipalLogo {
+  position: absolute;
+  left: 2%;
+  margin-top: 0.1%;
 }
 
 .cabecalho-menu ul {
@@ -58,9 +63,8 @@ header {
 }
 
 main {
-  height: 580px;
+  height: 600px;
   background-position: center;
-  background-size: cover;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -119,7 +123,7 @@ main {
 .container-title h2 {
   font-size: 2.8125rem;
   color: var(--dark);
-  margin-top: 220px;
+  margin-top: 20%;
 }
 
 .container-title p {
@@ -129,7 +133,7 @@ main {
 }
 
 .container-cards {
-  margin-top: 10px;
+  margin-top: 70px;
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -140,16 +144,20 @@ main {
   color: var(--primary);
 }
 
-.container-cards .card h3 {
-  margin-bottom: 20px;
+.container-cards {
+  margin: 0 auto;
+  max-width: 70%;
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .container-cards .card {
   border: 2px solid var(--primary);
   border-radius: 5px;
-  padding: 70px;
-  box-shadow: 0 0 30px #7bfbdd;
-  margin: 80px;
+  padding: 5%;
+  box-shadow: 0px 0px 0px 20px rgba(181, 243, 224, 0.3);
+  height: 260px;
 }
 
 .container-title2 {
@@ -157,7 +165,7 @@ main {
   flex-direction: column;
   font-size: 2.8125rem;
   color: var(--dark);
-  margin-top: 40px;
+  margin-top: 10%;
   justify-content: center;
   align-items: center;
 }
@@ -169,15 +177,21 @@ main {
 }
 
 .container-cards2 {
-  margin-top: 10px;
   display: flex;
   justify-content: space-between;
   font-size: 1.4375rem;
+  margin: 0 auto;
+  max-width: 90%;
 }
 
 .property-types {
   text-align: center;
   margin: 30px;
+}
+
+.container-cards2 .card2 img {
+  width: 100%;
+  height: auto;
 }
 
 .container-cards2 h4 {
@@ -196,12 +210,12 @@ main {
 .container-cards2 .card2 {
   border: 2px solid var(--light);
   border-radius: 5px;
-  padding: 0px;
-  margin: 30px;
+  margin: 10px;
 }
 
 .container-cards2 .card2 p {
   margin-bottom: 25px;
+  text-align: left;
 }
 
 .container-cards2 .card2 h3 {
@@ -224,24 +238,17 @@ main {
   font-size: 1.25rem;
   margin: 10px auto 0;
   display: block;
-  text-align: center;
 }
 
 section h2 {
-  display: flex;
-  flex-direction: column;
   font-size: 2.8125rem;
   color: var(--dark);
-  margin-top: 100px;
-  justify-content: center;
-  align-items: center;
+  margin-top: 10%;
 }
 
 section p {
   text-align: center;
   font-size: 1.25rem;
-  margin-top: 20px;
-  margin-bottom: 50px;
 }
 
 #contato {
@@ -253,39 +260,33 @@ section p {
 
 form {
   display: grid;
+  margin-top: 2%;
   gap: 10px;
 }
 
 form input,
 form textarea {
-  width: 100%; 
+  width: 100%;
   padding: 20px;
   border: 1px solid #eedede;
   border-radius: 5px;
-}
-
-
-form input[name="assunto"],
-form textarea[name="mensagem"] {
-  max-width: 100%; 
 }
 
 form textarea[name="mensagem"] {
   height: 180px;
 }
 
-.nomeemail, .telefoneendereco {
+.nomeemail,
+.telefoneendereco {
   display: flex;
-  justify-content: space-between;
-  margin: auto;
-  align-items: center;
-  max-width: 100%;
-  width: 100%; 
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.nomeemail div, .telefoneendereco div {
-  flex: 1; 
-  margin: 5px; 
+.nomeemail div,
+.telefoneendereco div {
+  flex: 1;
+  margin: 5px;
 }
 
 .botao3 {
@@ -296,17 +297,13 @@ form textarea[name="mensagem"] {
   background-color: var(--primary);
   color: var(--light);
   font-size: 1.25rem;
-  margin: 10px auto 0;
-  display: block;
-  text-align: center;
 }
 
 .footer {
   background-color: var(--dark);
-  margin-top: 8%;
+  margin-top: 12%;
   display: flex;
-  flex-wrap: wrap;
-  height: 280px; 
+  height: 280px;
 }
 
 .footer-col1,
@@ -329,7 +326,7 @@ form textarea[name="mensagem"] {
 .footer-social {
   display: flex;
   position: absolute;
-  margin-top: 9.9%;
+  margin-top: 10.2%;
   left: 4.9%;
   gap: 9px;
 }
@@ -345,6 +342,7 @@ form textarea[name="mensagem"] {
   align-items: center;
   color: rgb(149, 149, 170);
   gap: 20px;
+  text-align: center;
 }
 
 .footer-title2 {
