@@ -31,7 +31,7 @@
   <main class="principal">
     <div class="principal-conteudo">
       <figure>
-        <img src="./img/main-img.jpg" alt="Imagem Casa Principal" id="imgCasaPrincipal" width="766" height="700" />
+        <img src="./img/main-img.jpg" alt="Imagem Casa Principal" id="imgCasaPrincipal" />
       </figure>
       <h1>Find A <span class="color-primary">Perfect Home</span> To Live With Your Family</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et perferendis iure maiores
@@ -156,23 +156,27 @@
       inventore eligendi quo excepturi explicabo ratione quisquam, enim libero unde debitis tempora possimus ex!</p>
 
     <form action="" method="post">
-      <div>
-        <label for="nome"></label>
-        <input type="text" name="nome" id="nome" placeholder="Your Name" required />
+      <div class="div nomeemail">
+        <div>
+          <label for="nome"></label>
+          <input type="text" name="nome" id="nome" placeholder="Your Name" required />
+        </div>
+        <div>
+          <label for="email"></label>
+          <input type="email" name="email" id="email" placeholder="Your Email" required />
+        </div>
       </div>
 
-      <div>
-        <label for="email"></label>
-        <input type="email" name "email" id="email" placeholder="Your Email" required />
+      <div class="div telefoneendereco">
+        <div>
+          <label for="telefone"></label>
+          <input type="tel" name="telefone" id="telefone" placeholder="Your Phone" required />
+        </div>
+        <div>
+          <label for="endereco"></label>
+          <input type="text" name="endereco" id="endereco" placeholder="Your Address" required />
+        </div>
       </div>
-
-      <div>
-        <label for="telefone"></label>
-        <input type="tel" name="telefone" id="telefone" placeholder="Your Phone" required />
-      </div>
-      <div>
-        <label for="endereco"></label>
-        <input type="text" name="endereco" id="endereco" placeholder="Your Address" required />
       </div>
 
       <div>
@@ -215,13 +219,19 @@
 
     <div class="footer-social">
       <a href="https://twitter.com">
-        <img src="./img/icon-twitter.png" alt="link twitter" width="35" height="35" />
+        <figure>
+          <img src="./img/icon-twitter.png" alt="link twitter" />
+        </figure>
       </a>
       <a href="https://facebook.com">
-        <img src="./img/icon-face.png" alt="link facebook" width="35" height="35" />
+        <figure>
+          <img src="./img/icon-face.png" alt="link facebook" />
+        </figure>
       </a>
       <a href="https://youtube.com">
-        <img src="./img/icon-youtube.png" alt="link youtube" width="35" height="35" />
+        <figure>
+          <img src="./img/icon-youtube.png" alt="link youtube" />
+        </figure>
       </a>
     </div>
 
@@ -246,9 +256,9 @@
 
     <div class="footer-voltar">
       <figure>
-        <img src="./img/icon-arrow.png" alt="" id="imgFlechaFooter" width="55" height="55" />
+        <img src="./img/icon-arrow.png" alt="" id="imgFlechaFooter" />
       </figure>
-      </a>
+
     </div>
   </footer>
 

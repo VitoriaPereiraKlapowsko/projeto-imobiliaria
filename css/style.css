@@ -32,7 +32,6 @@ header {
 }
 
 .cabecalho-menu ul {
-  padding: 0;
   display: flex;
   justify-content: center;
   gap: 55px;
@@ -43,12 +42,12 @@ header {
 .cabecalho-menu ul li a {
   color: var(--dark);
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .color-primary2 {
   color: var(--primary);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .cabecalho {
@@ -74,7 +73,7 @@ main {
 }
 
 .principal-conteudo h1 {
-  font-size: 4.0625rem;
+  font-size: 4.0628rem;
   color: var(--dark);
   margin-bottom: 40px;
   padding: 0 120px 0 0;
@@ -93,8 +92,10 @@ main {
 
 #imgCasaPrincipal {
   position: absolute;
-  left: 55%;
-  top: 12%;
+  left: 60%;
+  top: 10.2%;
+  width: 40%;
+  height: 80%;
 }
 
 .botao {
@@ -172,6 +173,11 @@ main {
   display: flex;
   justify-content: space-between;
   font-size: 1.4375rem;
+}
+
+.property-types {
+  text-align: center;
+  margin: 30px;
 }
 
 .container-cards2 h4 {
@@ -252,20 +258,34 @@ form {
 
 form input,
 form textarea {
-  width: 100%;
-  max-width: 490px;
+  width: 100%; 
   padding: 20px;
   border: 1px solid #eedede;
   border-radius: 5px;
 }
 
+
 form input[name="assunto"],
 form textarea[name="mensagem"] {
-  max-width: 1600px;
+  max-width: 100%; 
 }
 
 form textarea[name="mensagem"] {
   height: 180px;
+}
+
+.nomeemail, .telefoneendereco {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+  max-width: 100%;
+  width: 100%; 
+}
+
+.nomeemail div, .telefoneendereco div {
+  flex: 1; 
+  margin: 5px; 
 }
 
 .botao3 {
@@ -283,10 +303,10 @@ form textarea[name="mensagem"] {
 
 .footer {
   background-color: var(--dark);
-  margin-top: 50px;
+  margin-top: 8%;
   display: flex;
   flex-wrap: wrap;
-  height: auto;
+  height: 280px; 
 }
 
 .footer-col1,
@@ -294,10 +314,11 @@ form textarea[name="mensagem"] {
 .footer-col3 {
   width: 30%;
   flex-direction: column;
-  gap: 20px;
+  gap: 90px;
+  margin-top: 2%;
   line-height: 2.0;
   color: rgb(149, 149, 170);
-  padding-left: 70px;
+  padding-left: 100px;
 }
 
 .footer-title {
@@ -305,10 +326,16 @@ form textarea[name="mensagem"] {
   color: var(--light);
 }
 
+.footer-social {
+  display: flex;
+  position: absolute;
+  margin-top: 9.9%;
+  left: 4.9%;
+  gap: 9px;
+}
+
 .footer-social img {
-  position: relative;
-  top: 130px;
-  margin-top: 15px;
+  width: 35px;
 }
 
 .footer-col1 .contact-address,
@@ -317,7 +344,7 @@ form textarea[name="mensagem"] {
   display: flex;
   align-items: center;
   color: rgb(149, 149, 170);
-  gap: 5px;
+  gap: 20px;
 }
 
 .footer-title2 {
@@ -325,16 +352,10 @@ form textarea[name="mensagem"] {
   color: var(--light);
 }
 
-.footer .footer-row2 {
-  padding: 20px 50px;
-  background-color: var(--dark);
-  color: white;
-  text-align: center;
-  font-weight: bold;
-}
-
 #imgFlechaFooter {
-  position: relative;
-  top: 230px;
-  left: 880%;
+  position: absolute;
+  height: 6%;
+  width: 3%;
+  right: 4%;
+  margin-top: 9.5%;
 }
