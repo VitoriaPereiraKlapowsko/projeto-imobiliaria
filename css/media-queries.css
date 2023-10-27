@@ -1,74 +1,86 @@
 @media (max-width: 576px) {
   .cabecalho {
-    padding: 15px;
+    padding: 2%;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
 
   #ImagemPrincipalLogo {
-    right: 1%;
+    left: 7%;
     margin-top: 5px;
   }
 
   .cabecalho-menu ul {
-    gap: 50px;
-    margin-top: 13px;
+    gap: 70px;
+    margin-top: 30px;
   }
 
   .principal {
-    height: auto; 
+    height: auto;
     flex-direction: column;
     align-items: center;
   }
 
+  .principal-conteudo h1 {
+    width: 90%;
+    padding: 10% 2%;
+    margin-left: 6%;
+    text-align: center;
+  }
+
   .principal-conteudo {
-    width: 90%; 
-    padding: 30px 30px 0 30px;
+    width: 90%;
+    padding: 10% 2%;
+    margin-left: 1%;
+    text-align: center;
   }
 
   #imgCasaPrincipal {
-    top: 68%;
-    left: 11%;
+    top: 67%;
+    left: 10.9%;
     width: 78%;
     height: auto;
   }
 
   .botao {
     width: 50%;
+    text-align: center;
   }
 
   .container-cards {
-    max-width: 100%; 
+    max-width: 100%;
     flex-direction: column;
-    margin-top: 60px; 
+    margin-top: 15%;
   }
 
   .container-cards .card {
     width: 90%;
     margin: 0 auto;
-    margin-bottom: 50px;
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-  }  
+  }
 
   .container-title {
-    margin-top: 70%; 
+    margin-top: 85%;
   }
-  
+
   .container-cards2 {
     flex-direction: column;
   }
 
   .container-cards2 .card2 {
     margin: 0 auto;
-    margin-bottom: 20px; 
+    margin-bottom: 15%;
   }
 
   .botao2 {
     width: 50%;
+    margin-top: 1%;
+    margin-bottom: 10%;
   }
 
   .nomeemail div,
@@ -78,8 +90,35 @@
 
   .botao3 {
     width: 50%;
-    margin: 0 auto; 
+    margin: 0 auto;
     display: block;
   }
-  
+
+  footer {
+    align-items: center;
+  }
+
+  .footer-col1,
+  .footer-col2,
+  .footer-social {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-social {
+    margin-top: 3%;
+  }
+
+  .footer-social img {
+    max-width: 100%;
+    margin: 10px;
+    margin-top: 490%;
+    margin-left: 160%;
+  }
+
+  #imgFlechaFooter {
+    width: 7%;
+    margin-top: 15%;
+    height: 4%;
+  }
 }
